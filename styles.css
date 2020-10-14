@@ -88,7 +88,12 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+.additional-image {
+  width: 200px;
+  height: 200px;
+}
+
+.card-a {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -98,8 +103,22 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+.card-a:hover {
+  border-color: #0399ff;
+}
+
+.card-b {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-b:hover {
+  border-color: #ff9904;
 }
 
 ul.skills {
